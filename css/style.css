@@ -1385,7 +1385,7 @@ span {
 
 .fa-comments {
     margin-left: 5px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .fa-comments:hover {
@@ -1401,8 +1401,9 @@ span {
     padding: 7px 12px 13px 12px;
     font-size: 16px;
     border-radius: 2px;
-    right: 15px;
+    left: 15px;
     bottom: 15px;
+    z-index: 10000;
     transition: background 0.5s;
 }
 
@@ -1484,6 +1485,10 @@ span {
 }
 
 
+.col-1-of-2 {
+        width: calc((100% - 6rem) / 2);
+        
+    }
 
 
 
