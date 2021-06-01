@@ -11,7 +11,9 @@
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
-  
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
@@ -24,66 +26,56 @@
 <link href="./main.550dcf66.css" rel="stylesheet"></head>
 
 <body> <!-- Add your content of header -->
-<header>
- <nav class="navbar navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="../index.html">Tenovaters</a>
-                    </div><!-- /.navbar-header -->
-                </div> <!-- /.container -->
-            </nav>
-<div class="section-container" style="margin-top: 4rem;">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <h1 class="text-center">Content</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus at sem quis varius. 
-          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis elit sagittis, at hendrerit lorem venenatis. Morbi accumsan iaculis blandit. Cras ultrices hendrerit nisl.</p>
-          
-          <div class="section-container-spacer">
-            <img src="./assets/images/img-06.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
-          </div>
-
-          <div class="row">
-            <div class="col-xs-6">
-              <img src="./assets/images/img-04.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
-            </div>
-            <div class="col-xs-6">
-              <img src="./assets/images/img-07.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
-            </div>
-          </div>
-       </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section-container">
-    <div class="container">
-      <div class="row section-container-spacer">
-        <div class="col-xs-12 col-md-8 col-md-offset-2">
-          <h2 class="text-center">More</h2>
-          <div class="section-container-spacer">
-            <p>Praesent at feugiat est, at faucibus ipsum. Aenean condimentum mauris vel malesuada pulvinar. Vestibulum sit amet hendrerit leo, quis vehicula mi.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>  
-          <img src="./assets/images/img-05.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
-        </div>  
-      </div>
-    </div>
-  </div>
-
-
-<script type="text/javascript" src="./main.0cf8b554.js"></script></body>
+                    <main>
+    <div class="container" style="height: 500px;">
+        <div class="carousel slide" id="main-carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#main-carousel" data-slide-to="1"></li>
+                <li data-target="#main-carousel" data-slide-to="2"></li>
+                <li data-target="#main-carousel" data-slide-to="3"></li>
+            </ol><!-- /.carousel-indicators -->
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="https://s19.postimg.cc/qzj5uncgj/slide1.jpg" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Mountain</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="https://s19.postimg.cc/lmubh3h0j/slide2.jpg" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Mountain</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="https://s19.postimg.cc/99hh9lr5v/slide3.jpg" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Mountain</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://s19.postimg.cc/nenabzsnn/slide4.jpg" alt="" class="d-block img-fluid">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Mountain</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
+                    </div>
+                </div>
+            </div><!-- /.carousel-inner -->
+            
+            <a href="#main-carousel" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only" aria-hidden="true">Prev</span>
+            </a>
+            <a href="#main-carousel" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only" aria-hidden="true">Next</span>
+            </a>
+        </div><!-- /.carousel -->
+    </div><!-- /.container -->
+</body>
 
 </html>
